@@ -4,3 +4,4 @@ anthropic
 pandas
 python-multipart
 python-dotenv
+uvicorn
