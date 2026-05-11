@@ -16,7 +16,8 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:5173",
-        "https://ai-powered-supply-chain.vercel.app"
+        "https://ai-powered-supply-chain.vercel.app",
+        "https://supply-iq-ai-powered-supply-chain-q.vercel.app"
     ],
     allow_methods=["*"],
     allow_headers=["*"],
