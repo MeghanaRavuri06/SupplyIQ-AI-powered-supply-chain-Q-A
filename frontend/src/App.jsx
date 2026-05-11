@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect } from "react";
 import axios from "axios";
 
-const API = "http://localhost:8000";
+const API = "https://supplyiq-ai-powered-supply-chain-q-a.onrender.com";
 
 const SUGGESTED_QUESTIONS = [
   "Which products are low on stock?",

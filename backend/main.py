@@ -8,13 +8,16 @@ import pandas as pd
 import io
 from typing import List
 
-load_dotenv("key.env")
+load_dotenv()
 
 app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],
+    allow_origins=[
+        "http://localhost:5173",
+        "https://ai-powered-supply-chain.vercel.app"
+    ],
     allow_methods=["*"],
     allow_headers=["*"],
 )
